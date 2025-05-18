@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e74c3c; /* strong red shade */
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  .quiz-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    background: linear-gradient(to right, #8e44ad, #c313a5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid #8e44ad;
+    padding-bottom: 10px;
+  }
+  .quiz-container {
+    background: #fff;
+    color: #333;
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  .quiz-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #8e44ad;
+  }
+  #question {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  #options {
+    list-style: none;
+    padding: 0;
+  } 
+  #options li {
+    margin: 10px 0;
+    padding: 12px 20px;
+    background-color: #eee;
+    color: #333;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+  } 
+  #options li:hover {
+    background-color: #d1c4e9;
+  } 
+  #options li.correct {
+    background-color: #c8e6c9;
+    color: green;
+  }
+  #options li.wrong {
+    background-color: #ffcdd2;
+    color: red;
+  }
+  button#next-btn {
+    background-color: #0f1193;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 25px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  button#next-btn:hover {
+    background-color: #6c3483;
+  }
+  #result-box {
+    margin-top: 20px;
+  }
+  
+  #result-box h2 {
+    font-size: 1.5rem;
+    color: #2e7d32;
+  }
+  #result-box p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  

@@ -47,6 +47,8 @@ Users see one question at a time and choose an answer by clicking on it. The app
 
 ![Image](https://github.com/user-attachments/assets/f62a1704-ab7e-4ec2-b7c8-41e9ea624ad5)
 
+![Image](https://github.com/user-attachments/assets/b813da90-5d8e-4055-b18e-320ffc49ec9a)
+
 
   
 

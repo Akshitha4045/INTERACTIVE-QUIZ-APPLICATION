@@ -41,7 +41,11 @@ Users see one question at a time and choose an answer by clicking on it. The app
 
 1. Download or clone this repo.  
 2. Open the `index.html` file in any modern web browser.  
-3. Start answering the questions and enjoy the quiz!  
+3. Start answering the questions and enjoy the quiz!
+
+##OUTPUT
+
+![Image](https://github.com/user-attachments/assets/f62a1704-ab7e-4ec2-b7c8-41e9ea624ad5)
 
 
   
